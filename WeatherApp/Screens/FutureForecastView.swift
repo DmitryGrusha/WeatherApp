@@ -1,12 +1,13 @@
 import SwiftUI
 
 struct FutureForecastView: View {
-  private var viewModel = MainViewModel()
+//  private var viewModel = MainViewModel()
   
   var body: some View {
-    List(viewModel.futureForecast, id: \.id) { item in
-      FutureForecastItem(item: item)
-    }
+    Text("")
+//    List(viewModel.futureForecast, id: \.id) { item in
+//      FutureForecastItem(item: item)
+//    }
   }
 }
 
